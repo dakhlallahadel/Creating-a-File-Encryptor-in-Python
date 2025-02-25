@@ -1,9 +1,7 @@
-Creating a File Encryptor in Python
-By Adel Dakhlallah
+# Creating a File Encryptor in Python
 
 
-
-Step 1: Install Dependencies
+# Step 1: Install Dependencies
 To start working with file encryption, I first installed the necessary Python library for encryption:
 This library provided the Fernet class, which implements symmetric encryption, ensuring secure file encryption and decryption with minimal overhead.
 Step 2: Key Generation
@@ -90,11 +88,11 @@ To ensure the security of the encryption process, I focused on properly storing 
 Step 6: Testing and Documentation
 To ensure the functionality and robustness of the encryption and decryption tool, I performed extensive testing with different file types and sizes. I also documented the process thoroughly for users to integrate it into their systems.
 ________________________________________
-Challenges Overcome:
+# Challenges Overcome:
 •	Key Management: Ensuring the encryption key is kept secure was a challenge. I implemented best practices for key storage and handling, such as using environment variables or encrypting the key.
 •	File Size Handling: The tool handles files of various sizes, including large binary files, by reading them in chunks when needed (for even more advanced optimizations).
 ________________________________________
-Outcome and Impact:
+# Outcome and Impact:
 This project provided a simple and efficient way to protect sensitive files, and it could be expanded into a fully featured tool or service for securing various types of data. The tool can be integrated into a larger system where secure file transmission and storage are crucial.
 ________________________________________
 Key Takeaways:
