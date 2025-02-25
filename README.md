@@ -1,5 +1,8 @@
 Creating a File Encryptor in Python
 By Adel Dakhlallah
+
+
+
 Step 1: Install Dependencies
 To start working with file encryption, I first installed the necessary Python library for encryption:
 This library provided the Fernet class, which implements symmetric encryption, ensuring secure file encryption and decryption with minimal overhead.
